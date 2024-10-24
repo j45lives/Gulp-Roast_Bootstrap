@@ -139,7 +139,7 @@ figcaption {
 
 .btn {
     background-color: #59331D;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     display: inline-block;
     border-radius: 10px;
     padding: 0.5rem 1rem;
@@ -147,6 +147,30 @@ figcaption {
     text-decoration: none;
     border: 2px solid #59331d;
     */
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+}
+
+.productpadding {
+    padding-bottom: 125px;
+}
+
+.product-description {
+    line-height: 1.6;
+
+}
+
+.product-price-2 {
+    padding-bottom: 30px;
+}
+
+.product-title-2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
@@ -176,13 +200,6 @@ figcaption {
         align-items: center;
     }
 
-    .products article {
-        /* display: grid;
-        grid-template-columns: 2fr 2fr;
-        gap: 1rem;
-        align-items: normal; */
-
-    }
 
     .container article div h2 {
         margin: 15px 0;
