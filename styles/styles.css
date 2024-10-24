@@ -84,7 +84,7 @@ nav a:hover {
 
 .main-bkgd {
     background: #ffffff url('../images/gulp-bottom-beans.jpg') repeat-x bottom;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 
 }
 
@@ -137,6 +137,17 @@ figcaption {
     display: none;
 }
 
+.btn {
+    background-color: #59331D;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    color: #f2f2f2;
+    text-decoration: none;
+    border: 2px solid #59331d;
+    */
+}
 
 @media (min-width: 768px) {
     .about .main {
@@ -218,6 +229,7 @@ figcaption {
         flex-grow: 10;
         text-align: left;
     }
+
 }
 
 
